@@ -5,6 +5,7 @@ import { ChatEngine } from "react-chat-engine";
 import { auth } from "../utils/firebase";
 import { useAuth } from "../contexts/AuthContext";
 import axios from "axios";
+require("dotenv").config();
 
 const Chats = () => {
 	const history = useHistory();
@@ -31,10 +32,12 @@ const Chats = () => {
 			return;
 		}
 
+		console.log(process.env);
+
 		axios
 			.get("https://api.chatengine.io/users/me/", {
 				headers: {
-					"project-ID": process.env.REACT_CHAT_ENGINE_ID,
+					"project-ID": process.env.REACT_APP_CHAT_ENGINE_ID,
 					"User-Name": user.user.displayName,
 					"User-Secret": user.user.uid,
 				},
@@ -57,7 +60,7 @@ const Chats = () => {
 					axios
 						.post("https://api.chatengine.io/users/", formdata, {
 							headers: {
-								"private-key": process.env.REACT_CHAT_ENGINE_KEY,
+								"private-key": process.env.REACT_APP_CHAT_ENGINE_KEY,
 							},
 						})
 						.then(() => {
@@ -82,7 +85,7 @@ const Chats = () => {
 			<div className='chat-box'>
 				<ChatEngine
 					height='calc(90vh - 66px)'
-					projectID={process.env.REACT_CHAT_ENGINE_ID}
+					projectID={process.env.REACT_APP_CHAT_ENGINE_ID}
 					userName={user.user?.displayName}
 					userSecret={user.user?.uid}
 				/>
