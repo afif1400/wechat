@@ -32,6 +32,7 @@
 .ce-chat-feed {
 	background: inherit !important;
 	border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+	padding-right: 1rem;
 }
 .ce-chat-feed-container {
 	background: transparent !important;

@@ -1,7 +1,7 @@
 body {
 	color: #eee;
 	background: url("../assets/images/background.jpg");
-	object-fit: contain;
+	object-fit: cover;
 	background-position: center;
 }
 
