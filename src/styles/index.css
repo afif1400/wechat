@@ -1,0 +1,11 @@
+body {
+	color: #eee;
+	background: url("../assets/images/background.jpg");
+	object-fit: contain;
+	background-position: center;
+}
+
+::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
+}

@@ -1,0 +1,100 @@
+.chat-box > div {
+	background: rgba(0, 0, 0, 0.7) !important;
+	backdrop-filter: blur(0px) !important;
+	border-radius: 20px;
+	/* height: 100% !important; */
+}
+
+.chats-page {
+	padding: 2rem;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.ce-chat-form-container {
+	background: inherit !important;
+}
+
+.ce-chat-list {
+	background: inherit !important;
+	border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.ce-settings {
+	background: inherit !important;
+	border-left: none !important;
+}
+.ce-chats-container,
+.ce-chats-container > div {
+	background: transparent !important;
+}
+
+.ce-chat-feed {
+	background: inherit !important;
+	border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+.ce-chat-feed-container {
+	background: transparent !important;
+	margin-right: 1rem !important;
+}
+.ce-feed-container-top {
+	background: transparent !important ;
+}
+
+.ce-chat-title {
+	background: transparent !important;
+}
+
+.ce-message-form-container {
+	background: transparent !important;
+}
+
+.ce-chat-card {
+	background: transparent !important;
+	border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+	border-radius: 0 !important;
+}
+
+.ql-container {
+	border: none !important;
+	border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.ql-toolbar {
+	border: none !important;
+}
+
+.ce-input {
+	background: inherit !important;
+	color: #fff;
+	font-size: 20px !important;
+}
+
+.ce-section-title-container,
+.ce-person-title-container,
+#ce-options-drop-down {
+	background: inherit !important;
+}
+
+.ce-settings-container > div,
+.ce-settings-container > div > div,
+.ce-settings-container > div > div > div {
+	border: none !important;
+}
+
+.ce-autocomplete-input {
+	font-size: 16px !important;
+}
+
+.ce-primary-button {
+	background: transparent !important;
+}
+
+.ce-input {
+	border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.ce-message-date-text {
+	color: unset !important;
+}
